@@ -27,3 +27,27 @@ priorcovid65
 
 duringcovid65 <-prop.test(c(79263.056, 80348.514), n=c(105403, 108726), conf.level = .95, correct=FALSE) # nolint
 duringcovid65
+
+priorcovidwhite <-prop.test(c(168458.488, 171326.844), n=c(307406, 303771), conf.level = .95, correct = FALSE) # nolint
+priorcovidwhite
+
+duringcovidwhite <-prop.test(c(171326.844, 169066.17), n=c(303771, 309645), conf.level = .95, correct=FALSE) # nolint
+duringcovidwhite
+
+priorcovidblack <-prop.test(c(160401.192, 15214.864), n=c(351757, 35632), conf.level = .95, correct=FALSE) # nolint
+priorcovidblack
+
+duringcovidblack<-prop.test(c(15214.864, 17831.15), n=c(35632, 40070), conf.level = .95, correct=FALSE) # nolint
+duringcovidblack
+
+priorcovidhispanic<-prop.test(c(23805.144, 22676.745), n=c(35632,50505), conf.level = .95, correct=FALSE) # nolint
+priorcovidhispanic
+
+duringcovidhispanic <- prop.test(c(22676.745, 22619.25), n=c(50505, 50265), conf.level = .95, correct=FALSE) # nolint
+duringcovidhispanic
+
+priorcovidother <- prop.test(c(20715.856, 21896.588), n=c(39992, 42028), conf.level = .95, correct=FALSE) # nolint
+priorcovidother
+
+duringcovidother <- prop.test(c(21896.588, 22794.45), n=c(42028, 43418), conf.level = .95, correct=FALSE) # nolint
+duringcovidother
