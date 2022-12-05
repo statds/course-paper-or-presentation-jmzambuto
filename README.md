@@ -1,2 +1,1 @@
-# course-paper-or-presentation-jmzambuto
-course-paper-or-presentation-jmzambuto created by GitHub Classroom
+This paper studied the effect of the Covid-19 pandemic on influenza vaccination rates within the United States. Data came from the Center for Disease Control Website https://data.cdc.gov/Flu-Vaccinations/Influenza-Vaccination-Coverage-for-All-Ages-6-Mont/vh55-3he6 . R was used to perform two-proportion z tests.
